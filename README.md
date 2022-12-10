@@ -1,6 +1,6 @@
 # Dikoko Realty Front-end Application #
 
-## To download and run app locally:
+## To download and run app locally: ##
 
 <ol>
   <li>Clone via HTTPS</li>
