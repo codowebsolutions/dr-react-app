@@ -12,23 +12,15 @@
 }
 
 :root {
-  --primary: var(--color-primary-30);
-  --primary-lighter: var(--color-primary-40);
-  --primary-active: rgba(2, 201, 143, 0.625);
-  --secondary: var(--color-secondary-20);
-  --secondary-lighter: var(--color-secondary-40);
-  --secondary-invert: var(--color-primary-80);
-  --background: var(--color-secondary-95);
+  --primary: var(--color-primary-10);
+  --secondary: var(--color-secondary-10);
   --background-light: var(--color-secondary-95);
   --background-darker: var(--color-secondary-90);
   --link-primary: var(--color-primary-30);
   --text-primary: var(--color-neutral-20);
   --text-muted: var(--color-neutral-50);
-  --sidebar-item-hover: #02c98f0d;
-  --sidebar-item-active: #02c98f1a;
-  --sidebar-item-highlight: var(--color-primary-50);
   --font-color: var(--color-utility-white);
-  --button-text-primary: var(--color-utility-white);
+  --button-text-primary: var(--color-utility-black);
   --permanent-primary: var(--color-primary-30);
 
   // sizes
@@ -53,6 +45,7 @@ body,
   height: 100vh;
   line-height: normal;
   font-weight: normal;
+  background-color: var(--secondary);
 }
 
 
