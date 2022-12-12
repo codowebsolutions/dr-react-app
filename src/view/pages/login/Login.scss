@@ -1,0 +1,24 @@
+@import "../../../styles/mixins/public_route_mixins.scss";
+
+.login-page-wrapper {
+  @include public_route_wrapper();
+
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 350px;
+    background-color: var(--secondary);
+
+    .login-page-header {
+      font-weight: 400;
+      color: var(--text-primary);
+    }
+  }
+}
