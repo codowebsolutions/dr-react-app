@@ -1,10 +1,14 @@
-import React from 'react'
+import LoginForm from './components/LoginForm'
+import './Login.scss'
 
-type Props = {}
-
-const Login = (props: Props) => {
+const Login = () => {
   return (
-    <div>Login</div>
+    <section className="login-page-wrapper">
+      <section className="login-form-container">
+        <h1 className="login-page-header">Login</h1>
+        <LoginForm />
+      </section>
+    </section>
   )
 }
 
